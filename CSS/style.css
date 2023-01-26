@@ -35,10 +35,70 @@ h1{
     font-weight: 700;
     font-size: 4.8rem;
     line-height: 4.8rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
     margin-top: 4rem;
-    max-width: 900px;
+}
+.block{
+    width: 100%;
+    margin-bottom: 2.4rem;
+    display: flex;
+    flex-direction: column;
+}
+.shem{
+    display: flex;
+    flex-direction: row;
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    max-width: 900px;
+}
+section{
+    width: 100%;
+    display: block;
+    height: 608px;
+}
+h2{
+    display: block;
+    font-weight: 600;
+    font-size: 3.2rem;
+    line-height: 3.2rem;
+    color: var(--text-color1);
+    margin-bottom: 1.2rem;
+    
+}
+p{
+    display: block;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: var(--text-color2);
+    
+}
+span{
+    color: var(--text-color1);
+    font-weight: 600;
+}
+.flash{
+    width: 32rem;
+    height: 14rem;
+}
+li{
+    display: block;
+    padding-top: 8.6rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.6rem;
+    border-width: 0.2rem;
+    border-color: var(--text-color1);
+    margin-right: 2.8rem;
+    background-color:  rgba(255, 255, 255, 0.08);
+    border-radius: 9rem;
+    text-align: center;
+    color: var(--text-color1);
 }
