@@ -1,0 +1,44 @@
+:root{
+    font-family: 'Inter', sans-serif;
+    font-size: 62.5%;
+    --background-color: #0A0C0F;
+    --text-color1:#FFFFFF;
+    --text-color2:rgba(255, 255, 255, 0.36);
+    font-weight: 500;
+}
+body{
+    background-color: var(--background-color);
+    min-width: 360px;
+}
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 1.4rem;
+    padding-bottom: 1.4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
+}
+.Mount{
+    width: 2.8rem;
+    height: 1.6rem;
+}
+.menu{
+    display: none;
+}
+h1{
+    display: block;
+    color: var(--text-color1);
+    font-weight: 700;
+    font-size: 4.8rem;
+    line-height: 4.8rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 4rem;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
